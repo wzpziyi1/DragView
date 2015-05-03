@@ -15,6 +15,7 @@
 		090673E51AF4857D00DAB015 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090673E41AF4857D00DAB015 /* Images.xcassets */; };
 		090673E81AF4857D00DAB015 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090673E61AF4857D00DAB015 /* LaunchScreen.xib */; };
 		090673F41AF4857D00DAB015 /* DragViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 090673F31AF4857D00DAB015 /* DragViewTests.m */; };
+		090673FF1AF4859300DAB015 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 090673FE1AF4859300DAB015 /* MyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		090673ED1AF4857D00DAB015 /* DragViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		090673F21AF4857D00DAB015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		090673F31AF4857D00DAB015 /* DragViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragViewTests.m; sourceTree = "<group>"; };
+		090673FD1AF4859300DAB015 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		090673FE1AF4859300DAB015 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				090673E61AF4857D00DAB015 /* LaunchScreen.xib */,
 				090673DB1AF4857D00DAB015 /* DragView.xcdatamodeld */,
 				090673D41AF4857D00DAB015 /* Supporting Files */,
+				090673FD1AF4859300DAB015 /* MyView.h */,
+				090673FE1AF4859300DAB015 /* MyView.m */,
 			);
 			path = DragView;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 				090673DD1AF4857D00DAB015 /* DragView.xcdatamodeld in Sources */,
 				090673E01AF4857D00DAB015 /* ViewController.m in Sources */,
 				090673D71AF4857D00DAB015 /* main.m in Sources */,
+				090673FF1AF4859300DAB015 /* MyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
